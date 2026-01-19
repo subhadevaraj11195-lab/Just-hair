@@ -1,13 +1,23 @@
 import { useState } from "react";
-import { products, categories } from "@/data/products";
+import { products, categories, WigProduct } from "@/data/products";
 import ProductCard from "./ProductCard";
+import ProductDetailModal from "./ProductDetailModal";
 
 const ProductGrid = () => {
   const [activeCategory, setActiveCategory] = useState("All");
+  const [selectedProduct, setSelectedProduct] = useState<WigProduct | null>(null);
 
   const filteredProducts = activeCategory === "All" 
     ? products 
     : products.filter(p => p.category === activeCategory);
+
+  const handleProductClick = (product: WigProduct) => {
+    setSelectedProduct(product);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedProduct(null);
+  };
 
   return (
     <section id="collection" className="py-20 md:py-28 bg-background">
@@ -46,10 +56,22 @@ const ProductGrid = () => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
           {filteredProducts.map((product, index) => (
-            <ProductCard key={product.id} product={product} index={index} />
+            <ProductCard 
+              key={product.id} 
+              product={product} 
+              index={index}
+              onClick={() => handleProductClick(product)}
+            />
           ))}
         </div>
       </div>
+
+      {/* Product Detail Modal */}
+      <ProductDetailModal 
+        product={selectedProduct}
+        isOpen={!!selectedProduct}
+        onClose={handleCloseModal}
+      />
     </section>
   );
 };

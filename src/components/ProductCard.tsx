@@ -4,9 +4,10 @@ import { WigProduct, WHATSAPP_NUMBER } from "@/data/products";
 interface ProductCardProps {
   product: WigProduct;
   index: number;
+  onClick?: () => void;
 }
 
-const ProductCard = ({ product, index }: ProductCardProps) => {
+const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-IN", {
       style: "currency",
@@ -24,8 +25,9 @@ const ProductCard = ({ product, index }: ProductCardProps) => {
 
   return (
     <div 
-      className="group bg-card rounded-xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-500 animate-fade-in opacity-0"
+      className="group bg-card rounded-xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-500 animate-fade-in opacity-0 cursor-pointer"
       style={{ animationDelay: `${0.1 * index}s` }}
+      onClick={onClick}
     >
       {/* Image Container */}
       <div className="relative aspect-[3/4] overflow-hidden bg-muted">
