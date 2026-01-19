@@ -8,6 +8,16 @@ import wig7 from "@/assets/wigs/wig-7.jpg";
 import wig8 from "@/assets/wigs/wig-8.jpg";
 import wig9 from "@/assets/wigs/wig-9.jpg";
 import wig10 from "@/assets/wigs/wig-10.jpg";
+import wig11 from "@/assets/wigs/wig-11.jpg";
+import wig12 from "@/assets/wigs/wig-12.jpg";
+import wig13 from "@/assets/wigs/wig-13.jpg";
+import wig14 from "@/assets/wigs/wig-14.jpg";
+import wig15 from "@/assets/wigs/wig-15.jpg";
+import wig16 from "@/assets/wigs/wig-16.jpg";
+import wig17 from "@/assets/wigs/wig-17.jpg";
+import wig18 from "@/assets/wigs/wig-18.jpg";
+import wig19 from "@/assets/wigs/wig-19.jpg";
+import wig20 from "@/assets/wigs/wig-20.jpg";
 
 export interface WigProduct {
   id: string;
@@ -99,9 +109,89 @@ export const products: WigProduct[] = [
     category: "Topper",
     description: "Beautiful natural wave pattern. Premium quality with soft, silky texture."
   },
+  { 
+    id: "11", 
+    name: "Wavy Hair Extension", 
+    price: 3299, 
+    image: wig11, 
+    category: "Extension",
+    description: "Premium wavy hair extension for adding length and volume. Easy to blend with natural hair."
+  },
+  { 
+    id: "12", 
+    name: "Side Swept Fringe", 
+    price: 2999, 
+    image: wig12, 
+    category: "Fringe",
+    description: "Elegant side-swept fringe piece. Perfect for framing the face with soft, natural bangs."
+  },
+  { 
+    id: "13", 
+    name: "3-Clip Silk Topper", 
+    price: 5799, 
+    image: wig13, 
+    category: "Topper",
+    description: "Secure 3-clip attachment with silk base. Provides excellent coverage with comfortable wear."
+  },
+  { 
+    id: "14", 
+    name: "Auburn Wave Topper", 
+    price: 6499, 
+    image: wig14, 
+    category: "Topper",
+    description: "Beautiful auburn wavy topper with 4-clip design. Adds gorgeous color and volume."
+  },
+  { 
+    id: "15", 
+    name: "Mono Base Topper", 
+    price: 5999, 
+    image: wig15, 
+    category: "Topper",
+    description: "Monofilament base for realistic scalp appearance. Breathable and comfortable construction."
+  },
+  { 
+    id: "16", 
+    name: "Swiss Lace Toupee", 
+    price: 7499, 
+    image: wig16, 
+    category: "Toupee",
+    description: "Premium Swiss lace front with PU back. Undetectable hairline for men and women."
+  },
+  { 
+    id: "17", 
+    name: "M1 Mono System", 
+    price: 8999, 
+    image: wig17, 
+    category: "Toupee",
+    description: "Professional M1 mono hair replacement system. Durable construction with natural appearance."
+  },
+  { 
+    id: "18", 
+    name: "French Lace Toupee", 
+    price: 7999, 
+    image: wig18, 
+    category: "Toupee",
+    description: "Delicate French lace with PU perimeter. Offers versatile styling and secure attachment."
+  },
+  { 
+    id: "19", 
+    name: "Clip-In Wave Topper", 
+    price: 5499, 
+    image: wig19, 
+    category: "Topper",
+    description: "Long wavy topper with secure clip attachment. Natural body wave for effortless style."
+  },
+  { 
+    id: "20", 
+    name: "Natural Wave Weft", 
+    price: 4299, 
+    image: wig20, 
+    category: "Extension",
+    description: "Premium weft extension with natural wave pattern. Easy clip-in application."
+  },
 ];
 
-export const categories = ["All", "Topper", "Crown", "Fringe", "Hair Piece"];
+export const categories = ["All", "Topper", "Crown", "Fringe", "Toupee", "Extension", "Hair Piece"];
 
 // WhatsApp configuration
 export const WHATSAPP_NUMBER = "919876543210"; // Replace with your WhatsApp number
