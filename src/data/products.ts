@@ -18,6 +18,12 @@ import wig17 from "@/assets/wigs/wig-17.jpg";
 import wig18 from "@/assets/wigs/wig-18.jpg";
 import wig19 from "@/assets/wigs/wig-19.jpg";
 import wig20 from "@/assets/wigs/wig-20.jpg";
+import wig21 from "@/assets/wigs/wig-21.jpg";
+import wig22 from "@/assets/wigs/wig-22.jpg";
+import wig23 from "@/assets/wigs/wig-23.jpg";
+import wig24 from "@/assets/wigs/wig-24.jpg";
+import wig25 from "@/assets/wigs/wig-25.jpg";
+import wig26 from "@/assets/wigs/wig-26.jpg";
 
 export interface WigProduct {
   id: string;
@@ -189,9 +195,57 @@ export const products: WigProduct[] = [
     category: "Extension",
     description: "Premium weft extension with natural wave pattern. Easy clip-in application."
   },
+  { 
+    id: "21", 
+    name: "Halo Wire Extension", 
+    price: 4499, 
+    image: wig21, 
+    category: "Extension",
+    description: "Invisible wire halo extension with gorgeous body waves. No clips needed - adjustable wire fits all."
+  },
+  { 
+    id: "22", 
+    name: "U-Part Straight Wig", 
+    price: 5299, 
+    image: wig22, 
+    category: "Extension",
+    description: "Silky straight U-part wig for natural blending. Leave out your own hair for seamless look."
+  },
+  { 
+    id: "23", 
+    name: "I-Tip Hair Strands", 
+    price: 3999, 
+    image: wig23, 
+    category: "Bonding",
+    description: "Premium I-tip keratin bonded hair. Single and double drawn options for professional application."
+  },
+  { 
+    id: "24", 
+    name: "Full Lace Curly Toupee", 
+    price: 8499, 
+    image: wig24, 
+    category: "Toupee",
+    description: "Full lace construction with natural curly pattern. 360-degree parting versatility."
+  },
+  { 
+    id: "25", 
+    name: "Micro Loop Extensions", 
+    price: 2999, 
+    image: wig25, 
+    category: "Bonding",
+    description: "Pre-looped micro ring extensions. Easy installation without heat or glue."
+  },
+  { 
+    id: "26", 
+    name: "Flat Tip Bonded Hair", 
+    price: 3499, 
+    image: wig26, 
+    category: "Bonding",
+    description: "Premium flat tip keratin bonds. Discreet attachment for natural movement."
+  },
 ];
 
-export const categories = ["All", "Topper", "Crown", "Fringe", "Toupee", "Extension", "Hair Piece"];
+export const categories = ["All", "Topper", "Crown", "Fringe", "Toupee", "Extension", "Bonding", "Hair Piece"];
 
 // WhatsApp configuration
 export const WHATSAPP_NUMBER = "919876543210"; // Replace with your WhatsApp number
