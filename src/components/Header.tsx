@@ -1,17 +1,18 @@
-import { ShoppingBag, Menu, X } from "lucide-react";
+import { Menu, X, Scissors } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
+            <Scissors className="w-6 h-6 md:w-7 md:h-7 text-primary" />
             <span className="text-2xl md:text-3xl font-serif font-bold text-foreground">
-              Luxe<span className="text-primary">Wigs</span>
+              Just<span className="text-primary">Hair</span>
             </span>
           </a>
 

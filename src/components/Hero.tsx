@@ -1,4 +1,5 @@
 import heroImage from "@/assets/hero-wig.jpg";
+import { Scissors } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -7,24 +8,27 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
-          alt="Luxurious hair wigs" 
-          className="w-full h-full object-cover opacity-40"
+          alt="Premium hair wigs" 
+          className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
-          <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4 animate-fade-in opacity-0" style={{ animationDelay: "0.2s" }}>
-            Premium Quality Wigs
-          </p>
+          <div className="flex items-center gap-2 mb-4 animate-fade-in opacity-0" style={{ animationDelay: "0.2s" }}>
+            <Scissors className="w-5 h-5 text-primary" />
+            <p className="text-primary font-medium tracking-widest uppercase text-sm">
+              Premium Quality Wigs
+            </p>
+          </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.4s" }}>
             Discover Your
             <span className="block text-gradient">Perfect Look</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg animate-fade-in opacity-0" style={{ animationDelay: "0.6s" }}>
-            Transform your style with our exquisite collection of premium hair wigs. 
+            Transform your style with our exquisite collection of premium hair wigs for men and women. 
             Natural, beautiful, and crafted for perfection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.8s" }}>
@@ -36,7 +40,7 @@ const Hero = () => {
             </a>
             <a 
               href="#contact" 
-              className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-foreground font-medium rounded-lg border-2 border-foreground/20 hover:border-primary hover:text-primary transition-all duration-300"
+              className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-foreground font-medium rounded-lg border-2 border-primary/40 hover:border-primary hover:text-primary transition-all duration-300"
             >
               Contact Us
             </a>
