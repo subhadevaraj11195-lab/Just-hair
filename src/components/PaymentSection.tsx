@@ -2,13 +2,6 @@ import { Smartphone, CreditCard, MessageCircle, Shield } from "lucide-react";
 import { UPI_ID, WHATSAPP_NUMBER } from "@/data/products";
 
 const PaymentSection = () => {
-  const handleWhatsAppContact = () => {
-    const message = encodeURIComponent(
-      "Hi! I'd like to inquire about payment options for ordering wigs."
-    );
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
-  };
-
   return (
     <section id="payment" className="py-20 md:py-28 bg-secondary/30">
       <div className="container mx-auto px-4">
@@ -74,13 +67,15 @@ const PaymentSection = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <button
-            onClick={handleWhatsAppContact}
-            className="inline-flex items-center gap-3 px-8 py-4 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 transition-all duration-300 shadow-soft hover:shadow-hover"
+          <a
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi! I'd like to inquire about ordering wigs.")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-green-500 text-foreground font-medium rounded-lg hover:bg-green-600 transition-all duration-300 shadow-soft hover:shadow-hover"
           >
             <MessageCircle size={20} />
             Chat with Us on WhatsApp
-          </button>
+          </a>
         </div>
       </div>
     </section>
