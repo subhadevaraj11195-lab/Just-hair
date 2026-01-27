@@ -33,6 +33,7 @@ export interface WigProduct {
   price: number;
   image: string;
   category: string;
+  gender: "Women" | "Men";
   description?: string;
 }
 
@@ -43,6 +44,7 @@ export const products: WigProduct[] = [
     price: 4999, 
     image: wig1, 
     category: "Topper",
+    gender: "Women",
     description: "Premium quality natural scalp hair topper with realistic parting. Perfect for adding volume and coverage."
   },
   { 
@@ -51,6 +53,7 @@ export const products: WigProduct[] = [
     price: 3499, 
     image: wig2, 
     category: "Fringe",
+    gender: "Women",
     description: "Elegant silk base fringe piece for instant bangs. Lightweight and comfortable for all-day wear."
   },
   { 
@@ -59,6 +62,7 @@ export const products: WigProduct[] = [
     price: 3999, 
     image: wig3, 
     category: "Crown",
+    gender: "Women",
     description: "Easy clip-in crown volumizer. Adds instant fullness to the crown area."
   },
   { 
@@ -67,6 +71,7 @@ export const products: WigProduct[] = [
     price: 5499, 
     image: wig4, 
     category: "Hair Piece",
+    gender: "Women",
     description: "Meticulously hand-tied for a natural movement and appearance. Premium 100% human hair."
   },
   { 
@@ -75,6 +80,7 @@ export const products: WigProduct[] = [
     price: 6299, 
     image: wig5, 
     category: "Topper",
+    gender: "Women",
     description: "Invisible lace front topper with natural hairline. Features secure clips for confident wear."
   },
   { 
@@ -83,6 +89,7 @@ export const products: WigProduct[] = [
     price: 6999, 
     image: wig6, 
     category: "Topper",
+    gender: "Women",
     description: "Maximum coverage topper with wavy texture. Ideal for significant hair loss or volume needs."
   },
   { 
@@ -91,6 +98,7 @@ export const products: WigProduct[] = [
     price: 5499, 
     image: wig7, 
     category: "Crown",
+    gender: "Women",
     description: "Silk top construction creates the illusion of natural scalp. Seamless blending guaranteed."
   },
   { 
@@ -99,6 +107,7 @@ export const products: WigProduct[] = [
     price: 4799, 
     image: wig8, 
     category: "Crown",
+    gender: "Women",
     description: "Instant volume boost for the crown and top of head. Natural-looking density."
   },
   { 
@@ -107,6 +116,7 @@ export const products: WigProduct[] = [
     price: 5299, 
     image: wig9, 
     category: "Topper",
+    gender: "Women",
     description: "Features a natural center part with realistic scalp appearance. Versatile styling options."
   },
   { 
@@ -115,6 +125,7 @@ export const products: WigProduct[] = [
     price: 5999, 
     image: wig10, 
     category: "Topper",
+    gender: "Women",
     description: "Beautiful natural wave pattern. Premium quality with soft, silky texture."
   },
   { 
@@ -123,6 +134,7 @@ export const products: WigProduct[] = [
     price: 3299, 
     image: wig11, 
     category: "Extension",
+    gender: "Women",
     description: "Premium wavy hair extension for adding length and volume. Easy to blend with natural hair."
   },
   { 
@@ -131,6 +143,7 @@ export const products: WigProduct[] = [
     price: 2999, 
     image: wig12, 
     category: "Fringe",
+    gender: "Women",
     description: "Elegant side-swept fringe piece. Perfect for framing the face with soft, natural bangs."
   },
   { 
@@ -139,6 +152,7 @@ export const products: WigProduct[] = [
     price: 5799, 
     image: wig13, 
     category: "Topper",
+    gender: "Women",
     description: "Secure 3-clip attachment with silk base. Provides excellent coverage with comfortable wear."
   },
   { 
@@ -147,6 +161,7 @@ export const products: WigProduct[] = [
     price: 6499, 
     image: wig14, 
     category: "Topper",
+    gender: "Women",
     description: "Beautiful auburn wavy topper with 4-clip design. Adds gorgeous color and volume."
   },
   { 
@@ -155,6 +170,7 @@ export const products: WigProduct[] = [
     price: 5999, 
     image: wig15, 
     category: "Topper",
+    gender: "Women",
     description: "Monofilament base for realistic scalp appearance. Breathable and comfortable construction."
   },
   { 
@@ -163,7 +179,8 @@ export const products: WigProduct[] = [
     price: 7499, 
     image: wig16, 
     category: "Toupee",
-    description: "Premium Swiss lace front with PU back. Undetectable hairline for men and women."
+    gender: "Men",
+    description: "Premium Swiss lace front with PU back. Undetectable hairline for men."
   },
   { 
     id: "17", 
@@ -171,6 +188,7 @@ export const products: WigProduct[] = [
     price: 8999, 
     image: wig17, 
     category: "Toupee",
+    gender: "Men",
     description: "Professional M1 mono hair replacement system. Durable construction with natural appearance."
   },
   { 
@@ -179,6 +197,7 @@ export const products: WigProduct[] = [
     price: 7999, 
     image: wig18, 
     category: "Toupee",
+    gender: "Men",
     description: "Delicate French lace with PU perimeter. Offers versatile styling and secure attachment."
   },
   { 
@@ -187,6 +206,7 @@ export const products: WigProduct[] = [
     price: 5499, 
     image: wig19, 
     category: "Topper",
+    gender: "Women",
     description: "Long wavy topper with secure clip attachment. Natural body wave for effortless style."
   },
   { 
@@ -195,6 +215,7 @@ export const products: WigProduct[] = [
     price: 4299, 
     image: wig20, 
     category: "Extension",
+    gender: "Women",
     description: "Premium weft extension with natural wave pattern. Easy clip-in application."
   },
   { 
@@ -203,6 +224,7 @@ export const products: WigProduct[] = [
     price: 4499, 
     image: wig21, 
     category: "Extension",
+    gender: "Women",
     description: "Invisible wire halo extension with gorgeous body waves. No clips needed - adjustable wire fits all."
   },
   { 
@@ -211,6 +233,7 @@ export const products: WigProduct[] = [
     price: 5299, 
     image: wig22, 
     category: "Extension",
+    gender: "Women",
     description: "Silky straight U-part wig for natural blending. Leave out your own hair for seamless look."
   },
   { 
@@ -219,6 +242,7 @@ export const products: WigProduct[] = [
     price: 3999, 
     image: wig23, 
     category: "Bonding",
+    gender: "Women",
     description: "Premium I-tip keratin bonded hair. Single and double drawn options for professional application."
   },
   { 
@@ -227,6 +251,7 @@ export const products: WigProduct[] = [
     price: 8499, 
     image: wig24, 
     category: "Toupee",
+    gender: "Men",
     description: "Full lace construction with natural curly pattern. 360-degree parting versatility."
   },
   { 
@@ -235,6 +260,7 @@ export const products: WigProduct[] = [
     price: 2999, 
     image: wig25, 
     category: "Bonding",
+    gender: "Women",
     description: "Pre-looped micro ring extensions. Easy installation without heat or glue."
   },
   { 
@@ -243,6 +269,7 @@ export const products: WigProduct[] = [
     price: 3499, 
     image: wig26, 
     category: "Bonding",
+    gender: "Women",
     description: "Premium flat tip keratin bonds. Discreet attachment for natural movement."
   },
   { 
@@ -251,6 +278,7 @@ export const products: WigProduct[] = [
     price: 6999, 
     image: wig27, 
     category: "Toupee",
+    gender: "Men",
     description: "Ultra-thin PU skin base for undetectable wear. Secure adhesive attachment with natural scalp appearance."
   },
   { 
@@ -259,14 +287,16 @@ export const products: WigProduct[] = [
     price: 8999, 
     image: wig28, 
     category: "Toupee",
+    gender: "Men",
     description: "Premium full lace construction with grey/salt & pepper blend. Breathable base with 360-degree styling freedom."
   },
 ];
 
 export const categories = ["All", "Topper", "Crown", "Fringe", "Toupee", "Extension", "Bonding", "Hair Piece"];
+export const genderFilters = ["All", "Women", "Men"];
 
 // WhatsApp configuration
-export const WHATSAPP_NUMBER = "919876543210"; // Replace with your WhatsApp number
+export const WHATSAPP_NUMBER = "918124859037";
 
 // UPI configuration
 export const UPI_ID = "yourname@upi"; // Replace with your UPI ID
