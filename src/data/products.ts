@@ -24,6 +24,8 @@ import wig23 from "@/assets/wigs/wig-23.jpg";
 import wig24 from "@/assets/wigs/wig-24.jpg";
 import wig25 from "@/assets/wigs/wig-25.jpg";
 import wig26 from "@/assets/wigs/wig-26.jpg";
+import wig27 from "@/assets/wigs/wig-27.jpg";
+import wig28 from "@/assets/wigs/wig-28.jpg";
 
 export interface WigProduct {
   id: string;
@@ -242,6 +244,22 @@ export const products: WigProduct[] = [
     image: wig26, 
     category: "Bonding",
     description: "Premium flat tip keratin bonds. Discreet attachment for natural movement."
+  },
+  { 
+    id: "27", 
+    name: "PU Skin System", 
+    price: 6999, 
+    image: wig27, 
+    category: "Toupee",
+    description: "Ultra-thin PU skin base for undetectable wear. Secure adhesive attachment with natural scalp appearance."
+  },
+  { 
+    id: "28", 
+    name: "Full Lace System", 
+    price: 8999, 
+    image: wig28, 
+    category: "Toupee",
+    description: "Premium full lace construction with grey/salt & pepper blend. Breathable base with 360-degree styling freedom."
   },
 ];
 
