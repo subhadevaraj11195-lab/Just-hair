@@ -1,4 +1,4 @@
-import { Menu, X, Scissors } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -7,10 +7,9 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
-            <Scissors className="w-6 h-6 md:w-7 md:h-7 text-primary" />
+        <div className="flex items-center justify-center h-16 md:h-20">
+          {/* Logo - Left */}
+          <a href="/" className="absolute left-4 flex items-center gap-2">
             <span className="text-2xl md:text-3xl font-serif font-bold text-foreground">
               Just<span className="text-primary">Hair</span>
             </span>
@@ -35,7 +34,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-foreground"
+            className="absolute right-4 md:hidden p-2 text-foreground"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

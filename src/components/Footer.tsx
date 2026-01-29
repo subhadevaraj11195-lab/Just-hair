@@ -1,4 +1,4 @@
-import { MessageCircle, Instagram, Mail, MapPin, Scissors } from "lucide-react";
+import { MessageCircle, Instagram, Mail, MapPin } from "lucide-react";
 import { WHATSAPP_NUMBER } from "@/data/products";
 
 const Footer = () => {
@@ -9,7 +9,6 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Scissors className="w-6 h-6 text-primary" />
               <h3 className="text-2xl font-serif font-bold">
                 Just<span className="text-primary">Hair</span>
               </h3>
