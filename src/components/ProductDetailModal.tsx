@@ -19,12 +19,9 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
     }).format(price);
   };
 
-  const handleWhatsAppOrder = () => {
-    const message = encodeURIComponent(
-      `Hi! I'm interested in ordering:\n\n*${product.name}*\nPrice: ${formatPrice(product.price)}\n\nPlease provide more details.`
-    );
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
-  };
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    `Hi! I'm interested in ordering:\n\n*${product.name}*\nPrice: ${formatPrice(product.price)}\n\nPlease provide more details.`
+  )}`;
 
   const features = [
     "100% Human Hair",
@@ -94,13 +91,15 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
             </div>
 
             {/* Order Button */}
-            <button
-              onClick={handleWhatsAppOrder}
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-auto flex items-center justify-center gap-2 px-6 py-4 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors"
             >
               <MessageCircle size={20} />
               Order on WhatsApp
-            </button>
+            </a>
 
             <p className="text-xs text-muted-foreground text-center mt-4">
               Click to chat with us and place your order
