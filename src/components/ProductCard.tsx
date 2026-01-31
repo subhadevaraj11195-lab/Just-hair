@@ -16,7 +16,8 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
     }).format(price);
   };
 
-  const whatsappUrl = "https://wa.me/919445219511";
+  const whatsappUrl =
+    "https://wa.me/918124859037?text=Hi%21%20I%20would%20like%20to%20inquire%20about%20ordering%20wigs";
 
   return (
     <div 
