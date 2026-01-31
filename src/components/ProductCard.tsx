@@ -34,16 +34,15 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
         <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-colors duration-300" />
         
         {/* Quick Order Button */}
-        <a
-          href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={(e) => e.stopPropagation()}
-          className="absolute bottom-4 left-4 right-4 flex items-center justify-center gap-2 px-4 py-3 bg-green-500 text-white font-medium rounded-lg opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 hover:bg-green-600"
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            window.open("https://wa.me/918124859037", "_blank");
+          }}
+          className="absolute bottom-4 left-4 right-4 flex items-center justify-center gap-2 px-4 py-3 bg-green-500 text-white font-medium rounded-lg"
         >
-          <MessageCircle size={18} />
           Order on WhatsApp
-        </a>
+        </button>
       </div>
 
       {/* Content */}
