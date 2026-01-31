@@ -16,9 +16,7 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
     }).format(price);
   };
 
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-    `Hi! I'm interested in ordering:\n\n*${product.name}*\nPrice: ${formatPrice(product.price)}\n\nPlease provide more details.`
-  )}`;
+  const whatsappUrl = "https://wa.me/8124859037";
 
   return (
     <div 
