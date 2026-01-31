@@ -16,7 +16,8 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
     }).format(price);
   };
 
-  const whatsappUrl = "https://wa.me/8124859037";
+  // This number is a product card
+  const whatsappUrl = "https://wa.me/9445219511";
 
   return (
     <div 
