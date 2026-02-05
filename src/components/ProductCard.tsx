@@ -1,5 +1,4 @@
-import { MessageCircle } from "lucide-react";
-import { WigProduct, WHATSAPP_NUMBER } from "@/data/products";
+ import { WigProduct } from "@/data/products";
 
 interface ProductCardProps {
   product: WigProduct;
@@ -8,15 +7,12 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
-  const formatPrice = (price: number) => {
-    return new Intl.NumberFormat("en-IN", {
+   const formatPrice = (price: number) =>
+     new Intl.NumberFormat("en-IN", {
       style: "currency",
       currency: "INR",
       maximumFractionDigits: 0,
-    }).format(price);
-  };
-
-  const whatsappUrl = "https://wa.me/918124859037";
+     }).format(price);
 
   return (
     <div 
@@ -29,7 +25,7 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
         <img 
           src={product.image} 
           alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+           className="w-full h-full object-contain bg-muted transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-colors duration-300" />
         
