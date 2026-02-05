@@ -47,11 +47,11 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
 
         <div className="grid md:grid-cols-2 gap-0">
           {/* Image Section */}
-          <div className="relative aspect-square md:aspect-auto bg-muted">
+          <div className="relative aspect-square md:aspect-auto bg-muted overflow-hidden">
             <img 
               src={product.image} 
               alt={product.name}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain bg-background p-4"
             />
           </div>
 
