@@ -25,7 +25,7 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
         <img 
           src={product.image} 
           alt={product.name}
-           className="w-full h-full object-contain bg-muted transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-colors duration-300" />
         
