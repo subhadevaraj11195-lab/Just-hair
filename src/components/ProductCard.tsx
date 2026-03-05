@@ -37,7 +37,7 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
           }}
           className="absolute bottom-4 left-4 right-4 flex items-center justify-center gap-2 px-4 py-3 bg-green-500 text-white font-medium rounded-lg"
         >
-          Order on WhatsApp
+          Chat with us on WhatsApp 8124859037
         </button>
       </div>
 
