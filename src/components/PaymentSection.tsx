@@ -74,7 +74,7 @@ const PaymentSection = () => {
             className="inline-flex items-center gap-3 px-8 py-4 bg-green-500 text-foreground font-medium rounded-lg hover:bg-green-600 transition-all duration-300 shadow-soft hover:shadow-hover"
           >
             <MessageCircle size={20} />
-            Chat with us on 8124859037
+            Chat with Us on WhatsApp
           </a>
         </div>
       </div>

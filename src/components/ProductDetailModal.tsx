@@ -98,8 +98,12 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
               className="mt-auto flex items-center justify-center gap-2 px-6 py-4 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors"
             >
               <MessageCircle size={20} />
-              Chat with us on 8124859037
+              Order on WhatsApp
             </a>
+
+            <p className="text-xs text-muted-foreground text-center mt-4">
+              Click to chat with us and place your order
+            </p>
           </div>
         </div>
       </DialogContent>
