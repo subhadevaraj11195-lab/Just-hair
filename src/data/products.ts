@@ -187,7 +187,7 @@ export const products: WigProduct[] = [
     name: "Swiss Lace Hair system", 
     price: 9000, 
     image: wig17, 
-    category: "Toupee",
+    category: "Topper",
     gender: "Men",
     description: "Professional M1 mono hair replacement system. Durable construction with natural appearance."
   },
