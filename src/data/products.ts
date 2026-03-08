@@ -196,7 +196,7 @@ export const products: WigProduct[] = [
     name: "Mirage Hair System", 
     price: 14000, 
     image: wig18, 
-    category: "Toupee",
+    category: "Topper",
     gender: "Men",
     description: "Delicate French lace with PU perimeter. Offers versatile styling and secure attachment."
   },
