@@ -286,7 +286,7 @@ export const products: WigProduct[] = [
     name: "Full Lace Hair System", 
     price: 12000, 
     image: wig28, 
-    category: "Toupee",
+    category: "Topper",
     gender: "Men",
     description: "Premium full lace construction with grey/salt & pepper blend. Breathable base with 360-degree styling freedom."
   },
