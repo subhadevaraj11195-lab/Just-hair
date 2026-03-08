@@ -193,7 +193,7 @@ export const products: WigProduct[] = [
   },
   { 
     id: "18", 
-    name: "French Lace Toupee", 
+    name: "Mirage Hair System", 
     price: 7999, 
     image: wig18, 
     category: "Toupee",
