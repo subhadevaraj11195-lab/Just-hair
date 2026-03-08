@@ -184,8 +184,8 @@ export const products: WigProduct[] = [
   },
   { 
     id: "17", 
-    name: "M1 Mono System", 
-    price: 8999, 
+    name: "Mono Hair System", 
+    price: 8000, 
     image: wig17, 
     category: "Toupee",
     gender: "Men",
