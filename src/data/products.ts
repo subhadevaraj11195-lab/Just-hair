@@ -277,7 +277,7 @@ export const products: WigProduct[] = [
     name: "Skin Hair System", 
     price: 15000, 
     image: wig27, 
-    category: "Toupee",
+    category: "Topper",
     gender: "Men",
     description: "Ultra-thin PU skin base for undetectable wear. Secure adhesive attachment with natural scalp appearance."
   },
