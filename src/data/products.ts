@@ -283,7 +283,8 @@ export const products: WigProduct[] = [
   { 
     id: "25", 
     name: "Micro Loop Extensions", 
-    price: 2999, 
+    price: 8000, 
+    priceDisplay: "₹8000 - 28000",
     image: wig25, 
     category: "Bonding",
     gender: "Women",
