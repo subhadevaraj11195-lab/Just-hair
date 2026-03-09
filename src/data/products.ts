@@ -180,7 +180,8 @@ export const products: WigProduct[] = [
   { 
     id: "2", 
     name: "Silk Base Fringe", 
-    price: 3499, 
+    price: 950, 
+    priceDisplay: "₹950 - 1600",
     image: wig2, 
     category: "Fringe",
     gender: "Women",
