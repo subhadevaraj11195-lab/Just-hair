@@ -243,8 +243,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "20", 
-    name: "Natural Wave Weft", 
-    price: 4299, 
+    name: "Natural Weft Extension", 
+    price: 12000, 
+    priceDisplay: "₹12000 - 26000",
     image: wig20, 
     category: "Extension",
     gender: "Women",
