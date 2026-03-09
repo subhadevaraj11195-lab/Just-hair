@@ -31,6 +31,7 @@ export interface WigProduct {
   id: string;
   name: string;
   price: number;
+  priceDisplay?: string;
   image: string;
   category: string;
   gender: "Women" | "Men";
