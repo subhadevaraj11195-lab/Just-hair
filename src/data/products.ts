@@ -295,7 +295,7 @@ export const products: WigProduct[] = [
   },
 ];
 
-export const categories = ["All", "Topper", "Crown", "Fringe", "Toupee", "Extension", "Bonding", "Hair Piece"];
+export const categories = ["All", "Topper", "Crown", "Fringe", "Extension", "Bonding", "Hair Piece"];
 export const genderFilters = ["All", "Women", "Men"];
 
 // WhatsApp configuration
