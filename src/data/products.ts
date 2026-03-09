@@ -38,15 +38,144 @@ export interface WigProduct {
 }
 
 export const products: WigProduct[] = [
+  // === TOPPERS - Women ===
   { 
     id: "1", 
     name: "Natural Scalp Topper", 
-    price: 4999, 
+    price: 14320, 
     image: wig1, 
     category: "Topper",
     gender: "Women",
     description: "Premium quality natural scalp hair topper with realistic parting. Perfect for adding volume and coverage."
   },
+  { 
+    id: "5", 
+    name: "Lace Front Topper", 
+    price: 15499, 
+    image: wig5, 
+    category: "Topper",
+    gender: "Women",
+    description: "Invisible lace front topper with natural hairline. Features secure clips for confident wear."
+  },
+  { 
+    id: "6", 
+    name: "Full Coverage Topper", 
+    price: 16999, 
+    image: wig6, 
+    category: "Topper",
+    gender: "Women",
+    description: "Maximum coverage topper with wavy texture. Ideal for significant hair loss or volume needs."
+  },
+  { 
+    id: "9", 
+    name: "Natural Part Topper", 
+    price: 17999, 
+    image: wig9, 
+    category: "Topper",
+    gender: "Women",
+    description: "Features a natural center part with realistic scalp appearance. Versatile styling options."
+  },
+  { 
+    id: "10", 
+    name: "Luxury Wave Topper", 
+    price: 18999, 
+    image: wig10, 
+    category: "Topper",
+    gender: "Women",
+    description: "Beautiful natural wave pattern. Premium quality with soft, silky texture."
+  },
+  { 
+    id: "13", 
+    name: "3-Clip Silk Topper", 
+    price: 19999, 
+    image: wig13, 
+    category: "Topper",
+    gender: "Women",
+    description: "Secure 3-clip attachment with silk base. Provides excellent coverage with comfortable wear."
+  },
+  { 
+    id: "14", 
+    name: "Auburn Wave Topper", 
+    price: 20999, 
+    image: wig14, 
+    category: "Topper",
+    gender: "Women",
+    description: "Beautiful auburn wavy topper with 4-clip design. Adds gorgeous color and volume."
+  },
+  { 
+    id: "15", 
+    name: "Mono Base Topper", 
+    price: 21999, 
+    image: wig15, 
+    category: "Topper",
+    gender: "Women",
+    description: "Monofilament base for realistic scalp appearance. Breathable and comfortable construction."
+  },
+  { 
+    id: "19", 
+    name: "Clip-In Wave Topper", 
+    price: 22999, 
+    image: wig19, 
+    category: "Topper",
+    gender: "Women",
+    description: "Long wavy topper with secure clip attachment. Natural body wave for effortless style."
+  },
+  // === TOPPERS - Men ===
+  { 
+    id: "16", 
+    name: "Mono Hair system", 
+    price: 24999, 
+    image: wig16, 
+    category: "Topper",
+    gender: "Men",
+    description: "Premium Swiss lace front with PU back. Undetectable hairline for men."
+  },
+  { 
+    id: "17", 
+    name: "Swiss Lace Hair system", 
+    price: 25999, 
+    image: wig17, 
+    category: "Topper",
+    gender: "Men",
+    description: "Professional M1 mono hair replacement system. Durable construction with natural appearance."
+  },
+  { 
+    id: "18", 
+    name: "Mirage Hair System", 
+    price: 26999, 
+    image: wig18, 
+    category: "Topper",
+    gender: "Men",
+    description: "Delicate French lace with PU perimeter. Offers versatile styling and secure attachment."
+  },
+  { 
+    id: "24", 
+    name: "Front Lace Hair System", 
+    price: 27999, 
+    image: wig24, 
+    category: "Topper",
+    gender: "Men",
+    description: "Full lace construction with natural curly pattern. 360-degree parting versatility."
+  },
+  { 
+    id: "28", 
+    name: "Full Lace Hair System", 
+    price: 28999, 
+    image: wig28, 
+    category: "Topper",
+    gender: "Men",
+    description: "Premium full lace construction with grey/salt & pepper blend. Breathable base with 360-degree styling freedom."
+  },
+  { 
+    id: "27", 
+    name: "Skin Hair System", 
+    price: 30000, 
+    image: wig27, 
+    category: "Topper",
+    gender: "Men",
+    description: "Ultra-thin PU skin base for undetectable wear. Secure adhesive attachment with natural scalp appearance."
+  },
+  // === OTHER CATEGORIES ===
   { 
     id: "2", 
     name: "Silk Base Fringe", 
@@ -75,24 +204,6 @@ export const products: WigProduct[] = [
     description: "Meticulously hand-tied for a natural movement and appearance. Premium 100% human hair."
   },
   { 
-    id: "5", 
-    name: "Lace Front Topper", 
-    price: 6299, 
-    image: wig5, 
-    category: "Topper",
-    gender: "Women",
-    description: "Invisible lace front topper with natural hairline. Features secure clips for confident wear."
-  },
-  { 
-    id: "6", 
-    name: "Full Coverage Topper", 
-    price: 6999, 
-    image: wig6, 
-    category: "Topper",
-    gender: "Women",
-    description: "Maximum coverage topper with wavy texture. Ideal for significant hair loss or volume needs."
-  },
-  { 
     id: "7", 
     name: "Silk Top Crown", 
     price: 5499, 
@@ -111,24 +222,6 @@ export const products: WigProduct[] = [
     description: "Instant volume boost for the crown and top of head. Natural-looking density."
   },
   { 
-    id: "9", 
-    name: "Natural Part Topper", 
-    price: 5299, 
-    image: wig9, 
-    category: "Topper",
-    gender: "Women",
-    description: "Features a natural center part with realistic scalp appearance. Versatile styling options."
-  },
-  { 
-    id: "10", 
-    name: "Luxury Wave Topper", 
-    price: 5999, 
-    image: wig10, 
-    category: "Topper",
-    gender: "Women",
-    description: "Beautiful natural wave pattern. Premium quality with soft, silky texture."
-  },
-  { 
     id: "11", 
     name: "Wavy Hair Extension", 
     price: 3299, 
@@ -145,69 +238,6 @@ export const products: WigProduct[] = [
     category: "Fringe",
     gender: "Women",
     description: "Elegant side-swept fringe piece. Perfect for framing the face with soft, natural bangs."
-  },
-  { 
-    id: "13", 
-    name: "3-Clip Silk Topper", 
-    price: 5799, 
-    image: wig13, 
-    category: "Topper",
-    gender: "Women",
-    description: "Secure 3-clip attachment with silk base. Provides excellent coverage with comfortable wear."
-  },
-  { 
-    id: "14", 
-    name: "Auburn Wave Topper", 
-    price: 6499, 
-    image: wig14, 
-    category: "Topper",
-    gender: "Women",
-    description: "Beautiful auburn wavy topper with 4-clip design. Adds gorgeous color and volume."
-  },
-  { 
-    id: "15", 
-    name: "Mono Base Topper", 
-    price: 5999, 
-    image: wig15, 
-    category: "Topper",
-    gender: "Women",
-    description: "Monofilament base for realistic scalp appearance. Breathable and comfortable construction."
-  },
-  { 
-    id: "16", 
-    name: "Mono Hair system", 
-    price: 8000, 
-    image: wig16, 
-    category: "Toupee",
-    gender: "Men",
-    description: "Premium Swiss lace front with PU back. Undetectable hairline for men."
-  },
-  { 
-    id: "17", 
-    name: "Swiss Lace Hair system", 
-    price: 9000, 
-    image: wig17, 
-    category: "Topper",
-    gender: "Men",
-    description: "Professional M1 mono hair replacement system. Durable construction with natural appearance."
-  },
-  { 
-    id: "18", 
-    name: "Mirage Hair System", 
-    price: 14000, 
-    image: wig18, 
-    category: "Topper",
-    gender: "Men",
-    description: "Delicate French lace with PU perimeter. Offers versatile styling and secure attachment."
-  },
-  { 
-    id: "19", 
-    name: "Clip-In Wave Topper", 
-    price: 5499, 
-    image: wig19, 
-    category: "Topper",
-    gender: "Women",
-    description: "Long wavy topper with secure clip attachment. Natural body wave for effortless style."
   },
   { 
     id: "20", 
@@ -246,15 +276,6 @@ export const products: WigProduct[] = [
     description: "Premium I-tip keratin bonded hair. Single and double drawn options for professional application."
   },
   { 
-    id: "24", 
-    name: "Front Lace Hair System", 
-    price: 10000, 
-    image: wig24, 
-    category: "Topper",
-    gender: "Men",
-    description: "Full lace construction with natural curly pattern. 360-degree parting versatility."
-  },
-  { 
     id: "25", 
     name: "Micro Loop Extensions", 
     price: 2999, 
@@ -271,24 +292,6 @@ export const products: WigProduct[] = [
     category: "Bonding",
     gender: "Women",
     description: "Premium flat tip keratin bonds. Discreet attachment for natural movement."
-  },
-  { 
-    id: "27", 
-    name: "Skin Hair System", 
-    price: 15000, 
-    image: wig27, 
-    category: "Topper",
-    gender: "Men",
-    description: "Ultra-thin PU skin base for undetectable wear. Secure adhesive attachment with natural scalp appearance."
-  },
-  { 
-    id: "28", 
-    name: "Full Lace Hair System", 
-    price: 12000, 
-    image: wig28, 
-    category: "Topper",
-    gender: "Men",
-    description: "Premium full lace construction with grey/salt & pepper blend. Breathable base with 360-degree styling freedom."
   },
 ];
 
