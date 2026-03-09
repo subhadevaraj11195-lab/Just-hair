@@ -292,8 +292,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "26", 
-    name: "Flat Tip Bonded Hair", 
-    price: 3499, 
+    name: "Flat Tip Extension", 
+    price: 10000, 
+    priceDisplay: "₹10,000 - 30000",
     image: wig26, 
     category: "Bonding",
     gender: "Women",
