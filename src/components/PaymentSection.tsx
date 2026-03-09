@@ -30,7 +30,7 @@ const PaymentSection = () => {
               1. Contact Us
             </h3>
             <p className="text-muted-foreground text-sm">
-              Click the WhatsApp button on any product to start a conversation with us.
+              WhatsApp us on +918124859037 for more details and images.
             </p>
           </div>
 
