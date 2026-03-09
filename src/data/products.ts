@@ -253,8 +253,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "21", 
-    name: "Halo Wire Extension", 
-    price: 4499, 
+    name: "Halo  Extension", 
+    price: 14000, 
+    priceDisplay: "₹14000 - 28000",
     image: wig21, 
     category: "Extension",
     gender: "Women",
