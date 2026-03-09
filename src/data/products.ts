@@ -31,6 +31,7 @@ export interface WigProduct {
   id: string;
   name: string;
   price: number;
+  priceDisplay?: string;
   image: string;
   category: string;
   gender: "Women" | "Men";
@@ -179,7 +180,8 @@ export const products: WigProduct[] = [
   { 
     id: "2", 
     name: "Silk Base Fringe", 
-    price: 3499, 
+    price: 950, 
+    priceDisplay: "₹950 - 1600",
     image: wig2, 
     category: "Fringe",
     gender: "Women",
@@ -241,8 +243,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "20", 
-    name: "Natural Wave Weft", 
-    price: 4299, 
+    name: "Natural Weft Extension", 
+    price: 12000, 
+    priceDisplay: "₹12000 - 26000",
     image: wig20, 
     category: "Extension",
     gender: "Women",
@@ -250,8 +253,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "21", 
-    name: "Halo Wire Extension", 
-    price: 4499, 
+    name: "Halo  Extension", 
+    price: 14000, 
+    priceDisplay: "₹14000 - 28000",
     image: wig21, 
     category: "Extension",
     gender: "Women",
@@ -269,7 +273,8 @@ export const products: WigProduct[] = [
   { 
     id: "23", 
     name: "I-Tip Hair Strands", 
-    price: 3999, 
+    price: 6000, 
+    priceDisplay: "₹6000 - 23000",
     image: wig23, 
     category: "Bonding",
     gender: "Women",
@@ -278,7 +283,8 @@ export const products: WigProduct[] = [
   { 
     id: "25", 
     name: "Micro Loop Extensions", 
-    price: 2999, 
+    price: 8000, 
+    priceDisplay: "₹8000 - 28000",
     image: wig25, 
     category: "Bonding",
     gender: "Women",
@@ -286,8 +292,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "26", 
-    name: "Flat Tip Bonded Hair", 
-    price: 3499, 
+    name: "Flat Tip Extension", 
+    price: 10000, 
+    priceDisplay: "₹10,000 - 30000",
     image: wig26, 
     category: "Bonding",
     gender: "Women",

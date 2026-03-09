@@ -19,8 +19,9 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
     }).format(price);
   };
 
+  const priceText = product.priceDisplay || formatPrice(product.price);
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-    `Hi! I'm interested in ordering:\n\n*${product.name}*\nPrice: ${formatPrice(product.price)}\n\nPlease provide more details.`
+    `Hi! I'm interested in ordering:\n\n*${product.name}*\nPrice: ${priceText}\n\nPlease provide more details.`
   )}`;
 
   const features = [
@@ -66,7 +67,7 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
             </h2>
             
             <p className="text-3xl font-bold text-primary mb-6">
-              {formatPrice(product.price)}
+              {product.priceDisplay || formatPrice(product.price)}
             </p>
 
             {product.description && (
