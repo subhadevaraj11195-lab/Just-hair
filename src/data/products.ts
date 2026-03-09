@@ -273,7 +273,8 @@ export const products: WigProduct[] = [
   { 
     id: "23", 
     name: "I-Tip Hair Strands", 
-    price: 3999, 
+    price: 6000, 
+    priceDisplay: "₹6000 - 23000",
     image: wig23, 
     category: "Bonding",
     gender: "Women",
