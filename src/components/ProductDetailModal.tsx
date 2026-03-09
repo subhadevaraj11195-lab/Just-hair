@@ -67,7 +67,7 @@ const ProductDetailModal = ({ product, isOpen, onClose }: ProductDetailModalProp
             </h2>
             
             <p className="text-3xl font-bold text-primary mb-6">
-              {formatPrice(product.price)}
+              {product.priceDisplay || formatPrice(product.price)}
             </p>
 
             {product.description && (

@@ -50,7 +50,7 @@ const ProductCard = ({ product, index, onClick }: ProductCardProps) => {
           {product.name}
         </h3>
         <p className="text-xl font-bold text-primary">
-          {formatPrice(product.price)}
+          {product.priceDisplay || formatPrice(product.price)}
         </p>
       </div>
     </div>
