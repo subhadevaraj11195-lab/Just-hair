@@ -8,7 +8,10 @@ const ProductGrid = () => {
   const [activeGender, setActiveGender] = useState("All");
   const [selectedProduct, setSelectedProduct] = useState<WigProduct | null>(null);
 
-  const filteredProducts = products.filter(p => {
+  // Exclude women's toppers since they have their own carousel section
+  const gridProducts = products.filter(p => !(p.category === "Topper" && p.gender === "Women"));
+
+  const filteredProducts = gridProducts.filter(p => {
     const categoryMatch = activeCategory === "All" || p.category === activeCategory;
     const genderMatch = activeGender === "All" || p.gender === activeGender;
     return categoryMatch && genderMatch;
