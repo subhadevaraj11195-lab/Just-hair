@@ -178,16 +178,6 @@ export const products: WigProduct[] = [
   },
   // === OTHER CATEGORIES ===
   { 
-    id: "2", 
-    name: "Silk Base Fringe", 
-    price: 950, 
-    priceDisplay: "₹950 - 1600",
-    image: wig2, 
-    category: "Fringe",
-    gender: "Women",
-    description: "Elegant silk base fringe piece for instant bangs. Lightweight and comfortable for all-day wear."
-  },
-  { 
     id: "3", 
     name: "Clip-In Crown Piece", 
     price: 3999, 
@@ -195,15 +185,6 @@ export const products: WigProduct[] = [
     category: "Crown",
     gender: "Women",
     description: "Easy clip-in crown volumizer. Adds instant fullness to the crown area."
-  },
-  { 
-    id: "4", 
-    name: "Hand-Tied Hair Piece", 
-    price: 5499, 
-    image: wig4, 
-    category: "Hair Piece",
-    gender: "Women",
-    description: "Meticulously hand-tied for a natural movement and appearance. Premium 100% human hair."
   },
   { 
     id: "7", 
