@@ -196,15 +196,6 @@ export const products: WigProduct[] = [
     description: "Silk top construction creates the illusion of natural scalp. Seamless blending guaranteed."
   },
   { 
-    id: "8", 
-    name: "Volumizing Crown Piece", 
-    price: 4799, 
-    image: wig8, 
-    category: "Crown",
-    gender: "Women",
-    description: "Instant volume boost for the crown and top of head. Natural-looking density."
-  },
-  { 
     id: "11", 
     name: "Wavy Hair Extension", 
     price: 3299, 
