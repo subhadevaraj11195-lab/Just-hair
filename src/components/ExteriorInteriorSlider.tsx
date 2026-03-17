@@ -38,7 +38,13 @@ const ExteriorInteriorSlider = ({ exteriorImage, interiorImage, alt }: ExteriorI
       onTouchMove={handleTouchMove}
     >
       {/* Interior (background layer) */}
-      <img src={interiorImage} alt={`${alt} interior`} className="absolute inset-0 w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-secondary/20">
+        <img
+          src={interiorImage}
+          alt={`${alt} interior`}
+          className="w-full h-full object-contain p-2"
+        />
+      </div>
 
       {/* Exterior (clipped layer) */}
       <div className="absolute inset-0" style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}>
