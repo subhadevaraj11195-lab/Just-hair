@@ -42,7 +42,7 @@ const ExteriorInteriorSlider = ({ exteriorImage, interiorImage, alt }: ExteriorI
         <img
           src={interiorImage}
           alt={`${alt} interior`}
-          className="w-full h-full object-contain p-2"
+          className="w-full h-full object-cover"
         />
       </div>
 
