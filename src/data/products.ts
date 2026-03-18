@@ -198,15 +198,6 @@ export const products: WigProduct[] = [
     description: "Elegant silk base fringe piece for instant bangs. Lightweight and comfortable for all-day wear."
   },
   { 
-    id: "3", 
-    name: "Clip-In Crown Piece", 
-    price: 3999, 
-    image: wig3, 
-    category: "Crown",
-    gender: "Women",
-    description: "Easy clip-in crown volumizer. Adds instant fullness to the crown area."
-  },
-  { 
     id: "4", 
     name: "Hand-Tied Hair Piece", 
     price: 5499, 
@@ -223,24 +214,6 @@ export const products: WigProduct[] = [
     category: "Crown",
     gender: "Women",
     description: "Silk top construction creates the illusion of natural scalp. Seamless blending guaranteed."
-  },
-  { 
-    id: "8", 
-    name: "Volumizing Crown Piece", 
-    price: 4799, 
-    image: wig8, 
-    category: "Crown",
-    gender: "Women",
-    description: "Instant volume boost for the crown and top of head. Natural-looking density."
-  },
-  { 
-    id: "11", 
-    name: "Wavy Hair Extension", 
-    price: 3299, 
-    image: wig11, 
-    category: "Extension",
-    gender: "Women",
-    description: "Premium wavy hair extension for adding length and volume. Easy to blend with natural hair."
   },
   { 
     id: "12", 
