@@ -44,7 +44,7 @@ const MenToppersSection = () => {
             Hair Systems
           </h2>
           <p className="text-xl md:text-2xl font-semibold text-primary">
-            ₹24,999 – ₹30,000
+            ₹7,999 – ₹14,999
           </p>
           <p className="text-muted-foreground mt-3 text-sm">
             Drag the slider to see the interior base construction

@@ -135,7 +135,7 @@ export const products: WigProduct[] = [
   { 
     id: "16", 
     name: "Mono Hair system", 
-    price: 24999, 
+    price: 7999, 
     image: wig16, 
     category: "Topper",
     gender: "Men",
@@ -144,7 +144,7 @@ export const products: WigProduct[] = [
   { 
     id: "17", 
     name: "Swiss Lace Hair system", 
-    price: 25999, 
+    price: 8999, 
     image: wig17, 
     category: "Topper",
     gender: "Men",
@@ -153,7 +153,7 @@ export const products: WigProduct[] = [
   { 
     id: "18", 
     name: "Mirage Hair System", 
-    price: 26999, 
+    price: 13999, 
     image: wig18, 
     category: "Topper",
     gender: "Men",
@@ -162,7 +162,7 @@ export const products: WigProduct[] = [
   { 
     id: "24", 
     name: "Front Lace Hair System", 
-    price: 27999, 
+    price: 9999, 
     image: wig24, 
     category: "Topper",
     gender: "Men",
@@ -171,7 +171,7 @@ export const products: WigProduct[] = [
   { 
     id: "28", 
     name: "Full Lace Hair System", 
-    price: 28999, 
+    price: 9999, 
     image: wig28, 
     category: "Topper",
     gender: "Men",
@@ -180,7 +180,7 @@ export const products: WigProduct[] = [
   { 
     id: "27", 
     name: "Skin Hair System", 
-    price: 30000, 
+    price: 14999, 
     image: wig27, 
     category: "Topper",
     gender: "Men",
