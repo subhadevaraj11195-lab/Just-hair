@@ -198,15 +198,6 @@ export const products: WigProduct[] = [
     description: "Elegant silk base fringe piece for instant bangs. Lightweight and comfortable for all-day wear."
   },
   { 
-    id: "3", 
-    name: "Clip-In Crown Piece", 
-    price: 3999, 
-    image: wig3, 
-    category: "Crown",
-    gender: "Women",
-    description: "Easy clip-in crown volumizer. Adds instant fullness to the crown area."
-  },
-  { 
     id: "4", 
     name: "Hand-Tied Hair Piece", 
     price: 5499, 
