@@ -123,6 +123,24 @@ export const products: WigProduct[] = [
     gender: "Women",
     description: "Long wavy topper with secure clip attachment. Natural body wave for effortless style."
   },
+  { 
+    id: "29", 
+    name: "Silk Base Topper", 
+    price: 16500, 
+    image: wig29, 
+    category: "Topper",
+    gender: "Women",
+    description: "Premium silk base topper with natural center parting. Realistic scalp appearance with soft, flowing hair."
+  },
+  { 
+    id: "30", 
+    name: "3-Clip Mono Topper", 
+    price: 17500, 
+    image: wig30, 
+    category: "Topper",
+    gender: "Women",
+    description: "Monofilament base topper with 3-clip secure attachment. Showcases realistic base construction for confident wear."
+  },
   // === TOPPERS - Men ===
   { 
     id: "16", 
