@@ -65,7 +65,7 @@ export const products: WigProduct[] = [
     name: "Silk Base Topper", 
     price: 16500, 
     image: wig29, 
-    category: "Topper",
+    category: "Hair Piece",
     gender: "Women",
     description: "Premium silk base topper with natural center parting. Realistic scalp appearance with soft, flowing hair."
   },
