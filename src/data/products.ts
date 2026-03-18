@@ -26,6 +26,8 @@ import wig25 from "@/assets/wigs/wig-25.jpg";
 import wig26 from "@/assets/wigs/wig-26.jpg";
 import wig27 from "@/assets/wigs/wig-27.jpg";
 import wig28 from "@/assets/wigs/wig-28.jpg";
+import wig29 from "@/assets/wigs/wig-29.jpg";
+import wig30 from "@/assets/wigs/wig-30.jpg";
 
 export interface WigProduct {
   id: string;
