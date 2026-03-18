@@ -61,15 +61,6 @@ export const products: WigProduct[] = [
     description: "Invisible lace front topper with natural hairline. Features secure clips for confident wear."
   },
   { 
-    id: "29", 
-    name: "Silk Base Topper", 
-    price: 16500, 
-    image: wig29, 
-    category: "Hair Piece",
-    gender: "Women",
-    description: "Premium silk base topper with natural center parting. Realistic scalp appearance with soft, flowing hair."
-  },
-  { 
     id: "6", 
     name: "Full Coverage Topper", 
     price: 16999, 
