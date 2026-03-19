@@ -44,8 +44,9 @@ export const products: WigProduct[] = [
   // === TOPPERS - Women (sorted ₹14,320 → ₹30,000) ===
   { 
     id: "1", 
-    name: "Natural Scalp Topper", 
-    price: 14320, 
+    name: "Hair Topper", 
+    price: 10999, 
+    priceDisplay: "from  ₹10,999",
     image: wig1, 
     category: "Topper",
     gender: "Women",
