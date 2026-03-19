@@ -256,11 +256,11 @@ export const products: WigProduct[] = [
   },
   { 
     id: "23", 
-    name: "I-Tip Hair Strands", 
+    name: "I-Tip Hair extension", 
     price: 6000, 
-    priceDisplay: "₹6000 - 23000",
+    priceDisplay: "₹5999 - 22,999",
     image: wig23, 
-    category: "Bonding",
+    category: "Extension",
     gender: "Women",
     description: "Premium I-tip keratin bonded hair. Single and double drawn options for professional application."
   },
@@ -270,17 +270,17 @@ export const products: WigProduct[] = [
     price: 8000, 
     priceDisplay: "₹8000 - 28000",
     image: wig25, 
-    category: "Bonding",
+    category: "Extension",
     gender: "Women",
     description: "Pre-looped micro ring extensions. Easy installation without heat or glue."
   },
   { 
     id: "26", 
-    name: "Flat Tip Extension", 
+    name: "Flat Tip / U Tip Extensions", 
     price: 10000, 
     priceDisplay: "₹10,000 - 30000",
     image: wig26, 
-    category: "Bonding",
+    category: "Extension",
     gender: "Women",
     description: "Premium flat tip keratin bonds. Discreet attachment for natural movement."
   },
