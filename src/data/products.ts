@@ -203,16 +203,16 @@ export const products: WigProduct[] = [
     name: "Hand-Tied Hair Piece", 
     price: 5499, 
     image: wig4, 
-    category: "Hair Piece",
+    category: "Topper",
     gender: "Women",
     description: "Meticulously hand-tied for a natural movement and appearance. Premium 100% human hair."
   },
   { 
     id: "7", 
-    name: "Silk Top Crown", 
-    price: 5499, 
+    name: "Lace Hair Topper", 
+    price: 13999, 
     image: wig7, 
-    category: "Crown",
+    category: "Topper",
     gender: "Women",
     description: "Silk top construction creates the illusion of natural scalp. Seamless blending guaranteed."
   },
