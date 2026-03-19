@@ -227,9 +227,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "20", 
-    name: "Natural Weft Extension", 
+    name: "Clip-on Weft Extension", 
     price: 12000, 
-    priceDisplay: "₹12000 - 26000",
+    priceDisplay: "₹12,000- 26,000",
     image: wig20, 
     category: "Extension",
     gender: "Women",
