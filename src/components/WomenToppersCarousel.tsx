@@ -27,7 +27,7 @@ const WomenToppersCarousel = () => {
             Hair Toppers
           </h2>
           <p className="text-xl md:text-2xl font-semibold text-primary">
-            ₹14,320 – ₹30,000
+            ₹10,999 – ₹30,000
           </p>
         </div>
 

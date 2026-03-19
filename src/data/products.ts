@@ -44,8 +44,9 @@ export const products: WigProduct[] = [
   // === TOPPERS - Women (sorted ₹14,320 → ₹30,000) ===
   { 
     id: "1", 
-    name: "Natural Scalp Topper", 
-    price: 14320, 
+    name: "Hair Topper", 
+    price: 10999, 
+    priceDisplay: "from  ₹10,999",
     image: wig1, 
     category: "Topper",
     gender: "Women",
@@ -162,7 +163,7 @@ export const products: WigProduct[] = [
   { 
     id: "24", 
     name: "Front Lace Hair System", 
-    price: 9999, 
+    price: 11999, 
     image: wig24, 
     category: "Topper",
     gender: "Men",
@@ -171,7 +172,7 @@ export const products: WigProduct[] = [
   { 
     id: "28", 
     name: "Full Lace Hair System", 
-    price: 9999, 
+    price: 11999, 
     image: wig28, 
     category: "Topper",
     gender: "Men",
@@ -189,13 +190,13 @@ export const products: WigProduct[] = [
   // === OTHER CATEGORIES ===
   { 
     id: "2", 
-    name: "Silk Base Fringe", 
+    name: "Silk Base Bangs", 
     price: 950, 
     priceDisplay: "₹950 - 1600",
     image: wig2, 
-    category: "Fringe",
+    category: "Bangs",
     gender: "Women",
-    description: "Elegant silk base fringe piece for instant bangs. Lightweight and comfortable for all-day wear."
+    description: "Elegant silk base bangs piece for instant bangs. Lightweight and comfortable for all-day wear."
   },
   { 
     id: "4", 
@@ -217,12 +218,12 @@ export const products: WigProduct[] = [
   },
   { 
     id: "12", 
-    name: "Side Swept Fringe", 
+    name: "Side Swept Bangs", 
     price: 2999, 
     image: wig12, 
-    category: "Fringe",
+    category: "Bangs",
     gender: "Women",
-    description: "Elegant side-swept fringe piece. Perfect for framing the face with soft, natural bangs."
+    description: "Elegant side-swept bangs piece. Perfect for framing the face with soft, natural bangs."
   },
   { 
     id: "20", 
@@ -285,7 +286,7 @@ export const products: WigProduct[] = [
   },
 ];
 
-export const categories = ["All", "Topper", "Crown", "Fringe", "Extension", "Bonding", "Hair Piece"];
+export const categories = ["All", "Topper", "Crown", "Bangs", "Extension", "Bonding", "Hair Piece"];
 export const genderFilters = ["All", "Women", "Men"];
 
 // WhatsApp configuration
