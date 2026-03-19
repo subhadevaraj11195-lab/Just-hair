@@ -73,9 +73,9 @@ export const products: WigProduct[] = [
   { 
     id: "30", 
     name: "3-Clip Mono Topper", 
-    price: 17500, 
+    price: 12999, 
     image: wig30, 
-    category: "Hair Piece",
+    category: "Topper",
     gender: "Women",
     description: "Monofilament base topper with 3-clip secure attachment. Showcases realistic base construction for confident wear."
   },
@@ -163,7 +163,7 @@ export const products: WigProduct[] = [
   { 
     id: "24", 
     name: "Front Lace Hair System", 
-    price: 11999, 
+    price: 9999, 
     image: wig24, 
     category: "Topper",
     gender: "Men",
@@ -172,7 +172,7 @@ export const products: WigProduct[] = [
   { 
     id: "28", 
     name: "Full Lace Hair System", 
-    price: 11999, 
+    price: 9999, 
     image: wig28, 
     category: "Topper",
     gender: "Men",
@@ -203,16 +203,16 @@ export const products: WigProduct[] = [
     name: "Hand-Tied Hair Piece", 
     price: 5499, 
     image: wig4, 
-    category: "Hair Piece",
+    category: "Topper",
     gender: "Women",
     description: "Meticulously hand-tied for a natural movement and appearance. Premium 100% human hair."
   },
   { 
     id: "7", 
-    name: "Silk Top Crown", 
-    price: 5499, 
+    name: "Lace Hair Topper", 
+    price: 13999, 
     image: wig7, 
-    category: "Crown",
+    category: "Topper",
     gender: "Women",
     description: "Silk top construction creates the illusion of natural scalp. Seamless blending guaranteed."
   },
@@ -227,9 +227,9 @@ export const products: WigProduct[] = [
   },
   { 
     id: "20", 
-    name: "Natural Weft Extension", 
+    name: "Clip-on Weft Extension", 
     price: 12000, 
-    priceDisplay: "₹12000 - 26000",
+    priceDisplay: "₹12,000- 26,000",
     image: wig20, 
     category: "Extension",
     gender: "Women",
@@ -256,11 +256,11 @@ export const products: WigProduct[] = [
   },
   { 
     id: "23", 
-    name: "I-Tip Hair Strands", 
+    name: "I-Tip Hair extension", 
     price: 6000, 
-    priceDisplay: "₹6000 - 23000",
+    priceDisplay: "₹5999 - 22,999",
     image: wig23, 
-    category: "Bonding",
+    category: "Extension",
     gender: "Women",
     description: "Premium I-tip keratin bonded hair. Single and double drawn options for professional application."
   },
@@ -270,23 +270,23 @@ export const products: WigProduct[] = [
     price: 8000, 
     priceDisplay: "₹8000 - 28000",
     image: wig25, 
-    category: "Bonding",
+    category: "Extension",
     gender: "Women",
     description: "Pre-looped micro ring extensions. Easy installation without heat or glue."
   },
   { 
     id: "26", 
-    name: "Flat Tip Extension", 
+    name: "Flat Tip / U Tip Extensions", 
     price: 10000, 
     priceDisplay: "₹10,000 - 30000",
     image: wig26, 
-    category: "Bonding",
+    category: "Extension",
     gender: "Women",
     description: "Premium flat tip keratin bonds. Discreet attachment for natural movement."
   },
 ];
 
-export const categories = ["All", "Topper", "Crown", "Bangs", "Extension", "Bonding", "Hair Piece"];
+export const categories = ["All", "Topper", "Bangs", "Extension"];
 export const genderFilters = ["All", "Women", "Men"];
 
 // WhatsApp configuration
