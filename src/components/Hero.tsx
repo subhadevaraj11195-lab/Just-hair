@@ -5,11 +5,11 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero-gradient pt-16">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img 
-          src={heroImage} 
-          alt="Premium hair wigs" 
-          className="w-full h-full object-cover object-top opacity-50"
-        />
+        <img
+          src={heroImage}
+          alt="Premium hair wigs"
+          className="w-full h-full object-cover object-top opacity-50" />
+        
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/40" />
       </div>
 
@@ -17,8 +17,8 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
           <div className="flex items-center gap-2 mb-4 animate-fade-in opacity-0" style={{ animationDelay: "0.2s" }}>
-            <p className="text-primary font-medium tracking-widest uppercase text-sm">
-              Premium Quality Wigs
+            <p className="text-primary font-medium tracking-widest uppercase text-sm">PREMIUM QUALITY HAIR SYSTEM
+
             </p>
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.4s" }}>
@@ -30,16 +30,16 @@ const Hero = () => {
             Natural, beautiful, and crafted for perfection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.8s" }}>
-            <a 
-              href="#collection" 
-              className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-medium rounded-lg hover:opacity-90 transition-all duration-300 shadow-soft hover:shadow-hover"
-            >
+            <a
+              href="#collection"
+              className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-medium rounded-lg hover:opacity-90 transition-all duration-300 shadow-soft hover:shadow-hover">
+              
               Shop Collection
             </a>
-            <a 
-              href="#contact" 
-              className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-foreground font-medium rounded-lg border-2 border-primary/40 hover:border-primary hover:text-primary transition-all duration-300"
-            >
+            <a
+              href="#contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-foreground font-medium rounded-lg border-2 border-primary/40 hover:border-primary hover:text-primary transition-all duration-300">
+              
               Contact Us
             </a>
           </div>
@@ -48,8 +48,8 @@ const Hero = () => {
 
       {/* Decorative Elements */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;

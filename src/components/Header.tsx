@@ -10,7 +10,7 @@ const Header = () => {
         <div className="flex items-center justify-center h-16 md:h-20">
           {/* Logo - Left */}
           <a href="/" className="absolute left-4 flex items-center gap-2">
-            <span className="text-2xl md:text-3xl font-serif font-bold text-foreground">
+            <span className="text-2xl font-serif font-bold text-foreground md:text-4xl">
               Just<span className="text-primary">Hair</span>
             </span>
           </a>
@@ -32,52 +32,52 @@ const Header = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="absolute right-4 md:hidden p-2 text-foreground"
-          >
+            className="absolute right-4 md:hidden p-2 text-foreground">
+            
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
         {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-border animate-fade-in">
+        {isMenuOpen &&
+        <nav className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col gap-4">
-              <a 
-                href="#collection" 
-                onClick={() => setIsMenuOpen(false)}
-                className="text-base font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
+              <a
+              href="#collection"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-base font-medium text-muted-foreground hover:text-primary transition-colors">
+              
                 Collection
               </a>
-              <a 
-                href="#about" 
-                onClick={() => setIsMenuOpen(false)}
-                className="text-base font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
+              <a
+              href="#about"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-base font-medium text-muted-foreground hover:text-primary transition-colors">
+              
                 About
               </a>
-              <a 
-                href="#payment" 
-                onClick={() => setIsMenuOpen(false)}
-                className="text-base font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
+              <a
+              href="#payment"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-base font-medium text-muted-foreground hover:text-primary transition-colors">
+              
                 Payment
               </a>
-              <a 
-                href="#contact" 
-                onClick={() => setIsMenuOpen(false)}
-                className="text-base font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
+              <a
+              href="#contact"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-base font-medium text-muted-foreground hover:text-primary transition-colors">
+              
                 Contact
               </a>
             </div>
           </nav>
-        )}
+        }
       </div>
-    </header>
-  );
+    </header>);
+
 };
 
 export default Header;
