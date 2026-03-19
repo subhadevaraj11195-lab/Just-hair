@@ -163,7 +163,7 @@ export const products: WigProduct[] = [
   { 
     id: "24", 
     name: "Front Lace Hair System", 
-    price: 9999, 
+    price: 11999, 
     image: wig24, 
     category: "Topper",
     gender: "Men",
@@ -172,7 +172,7 @@ export const products: WigProduct[] = [
   { 
     id: "28", 
     name: "Full Lace Hair System", 
-    price: 9999, 
+    price: 11999, 
     image: wig28, 
     category: "Topper",
     gender: "Men",
@@ -190,13 +190,13 @@ export const products: WigProduct[] = [
   // === OTHER CATEGORIES ===
   { 
     id: "2", 
-    name: "Silk Base Fringe", 
+    name: "Silk Base Bangs", 
     price: 950, 
     priceDisplay: "₹950 - 1600",
     image: wig2, 
-    category: "Fringe",
+    category: "Bangs",
     gender: "Women",
-    description: "Elegant silk base fringe piece for instant bangs. Lightweight and comfortable for all-day wear."
+    description: "Elegant silk base bangs piece for instant bangs. Lightweight and comfortable for all-day wear."
   },
   { 
     id: "4", 
@@ -218,12 +218,12 @@ export const products: WigProduct[] = [
   },
   { 
     id: "12", 
-    name: "Side Swept Fringe", 
+    name: "Side Swept Bangs", 
     price: 2999, 
     image: wig12, 
-    category: "Fringe",
+    category: "Bangs",
     gender: "Women",
-    description: "Elegant side-swept fringe piece. Perfect for framing the face with soft, natural bangs."
+    description: "Elegant side-swept bangs piece. Perfect for framing the face with soft, natural bangs."
   },
   { 
     id: "20", 
