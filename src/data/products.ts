@@ -73,9 +73,9 @@ export const products: WigProduct[] = [
   { 
     id: "30", 
     name: "3-Clip Mono Topper", 
-    price: 17500, 
+    price: 12999, 
     image: wig30, 
-    category: "Hair Piece",
+    category: "Topper",
     gender: "Women",
     description: "Monofilament base topper with 3-clip secure attachment. Showcases realistic base construction for confident wear."
   },
