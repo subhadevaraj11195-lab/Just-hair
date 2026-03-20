@@ -57,7 +57,7 @@ const PaymentSection = () => {
               <Shield className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-serif font-semibold text-foreground mb-3">
-              3. Receive Your Wig
+              3. Receive Your Hair System  
             </h3>
             <p className="text-muted-foreground text-sm">
               Share payment screenshot on WhatsApp. We'll ship your order within 2-3 days.
@@ -71,15 +71,15 @@ const PaymentSection = () => {
             href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi! I'd like to inquire about ordering wigs.")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 bg-green-500 text-foreground font-medium rounded-lg hover:bg-green-600 transition-all duration-300 shadow-soft hover:shadow-hover"
-          >
+            className="inline-flex items-center gap-3 px-8 py-4 bg-green-500 text-foreground font-medium rounded-lg hover:bg-green-600 transition-all duration-300 shadow-soft hover:shadow-hover">
+            
             <MessageCircle size={20} />
             Chat with Us on WhatsApp
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default PaymentSection;
