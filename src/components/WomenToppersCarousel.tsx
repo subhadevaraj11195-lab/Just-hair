@@ -46,9 +46,6 @@ const WomenToppersCarousel = () => {
               <h3 className="text-lg font-serif font-semibold text-white">
                 {product.name}
               </h3>
-              <p className="text-white/80 text-sm">
-                {product.priceDisplay || `₹${product.price.toLocaleString("en-IN")}`}
-              </p>
             </div>
           </div>
 
