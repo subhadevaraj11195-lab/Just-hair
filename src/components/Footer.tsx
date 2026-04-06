@@ -33,7 +33,7 @@ const Footer = () => {
                 <Instagram size={18} />
               </a>
               <a 
-                href="mailto:hello@justhair.com"
+                href="mailto:hello.justhair@gmail.com"
                 className="w-10 h-10 rounded-full bg-muted flex items-center justify-center hover:bg-primary transition-colors"
               >
                 <Mail size={18} />
